@@ -1,0 +1,180 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background:linear-gradient(45deg,lightblue,lightpink);
+}
+
+#root {
+  height: 100%;
+}
+
+.App {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.login{
+  padding: 2%;
+  margin-top: 10%;
+}
+.registration{
+  margin-top: 7.5%;
+  position: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+}
+.list_story_header{
+  
+  padding-top: 5%;
+  padding-bottom: 5%;
+  position: -webkit-sticky; /* Safari & IE */
+  position: sticky;
+  top: 0;
+  background-color: chartreuse;
+}
+.story_container{
+  padding: 2%
+}
+.card{
+  box-shadow: 1px 1px 1px 1px grey;
+  padding-top:2%;
+  border-radius: 1rem 1rem;
+  background-color:aliceblue;
+}
+.card-title{
+  color:darkmagenta;
+}
+.card-body{
+  border-radius: 1rem 1rem;
+  text-overflow:ellipsis;
+  color:coral;
+}
+
+.add-cart-btn{
+  background-color: blue;
+  color:aqua;
+}
+.card-footer {
+  border-top:2px solid grey;
+  display: flex;
+  color:darkgreen;
+  justify-content: space-between;
+}
+.modal-button {
+  border: none;
+  color: #2196F3;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+}
+.modal-button:hover {
+  color: blue;
+}
+.view_icon{
+  display: inline-block;
+}
+.view_text{
+  display: inline-block;
+}
+.reading_icon {
+  display: inline-block;
+  margin-left: 1%;
+}
+.reading_text{
+  display: inline-block
+}
+.text{
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+
+
+}
+.homelink{
+  color: inherit;
+  text-decoration: none;
+  background-color: transparent;
+}
+.homelink:hover{
+  color: #0056b3;
+  text-decoration: none;
+}
+
+.logo{
+  display: inline-block;
+  color:purple;
+  
+}
+/* Checkout css */
+.coupons-section {
+  display: flex;
+  flex-direction: column;
+ color:crimson;
+}
+.checkout-container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius:1rem 1rem;
+  box-shadow: inset;
+  background-color: aliceblue;
+  color:darkmagenta;
+  
+}
+a {
+  color: #2196F3;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color:crimson;
+}
+.coupon-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: antiquewhite;
+  border-radius: 1rem 1rem;
+  color:blue;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: cadetblue;
+}
+.formheader{
+  background-color: #2196F3;
+  color:yellowgreen;
+}
+.input-group {
+  display: flex;
+  justify-content: space-between;
+ 
+ 
+}
+.input-group > input {
+  width: 100%;
+  background-color: wheat; 
+  
+}
+.select {
+  width: 100%;
+}
