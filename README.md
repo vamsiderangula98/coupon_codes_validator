@@ -19,7 +19,7 @@ Hosted url:"https://coupons-codes-validator.herokuapp.com/"
 4. mongoose
 
 ### External Code references
-- `/client/src/modules/story/storyCollection.jsx`
+- `/client/src/modules/story/productsCollection.jsx`
  
 **Method Name(s)**
  
