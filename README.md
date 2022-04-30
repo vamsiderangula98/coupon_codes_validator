@@ -2,6 +2,7 @@
 
 
 An application to create and validate the coupon codes that support given features.
+Hosted url:"https://coupons-codes-validator.herokuapp.com/"
 
 ### Pre-requisites
 
